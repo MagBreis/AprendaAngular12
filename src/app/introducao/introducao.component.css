@@ -57,9 +57,28 @@ header, .navbar {
   padding: 0;
 }
 
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #FFF;
+}
 
 .main-btn {
-  background-color: #e91809;
+  background-color: #65DAF9;
   color: #FFF;
   text-transform: uppercase;
   width: 200px;
@@ -74,7 +93,7 @@ header, .navbar {
   text-decoration: none;
   color: #FFF;
   background-color: transparent;
-  border-color: #d4e8eb;
+  border-color: #3EC1D5;
 }
 
 .carousel-indicators .active {
@@ -94,7 +113,14 @@ header, .navbar {
   text-align: center;
 }
 
-
+.main-title::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 42.5%;
+}
 
 .about-title {
   font-size: 17px;
@@ -140,7 +166,7 @@ header, .navbar {
 }
 
 .service-box:hover > i, .service-box:hover > h4 {
-  color: #65DAF9;
+  color: #a3370d;
 }
 
 /* Dados */
@@ -374,7 +400,7 @@ header, .navbar {
 }
 
 #contact-form .main-btn:hover {
-  color: #f71403;
+  color: #3EC1D5;
 }
 
 /* Copy */
@@ -399,7 +425,7 @@ header, .navbar {
 
 #copy-area .container a:hover {
   text-decoration: none;
-  color: #e92012;
+  color: #3EC1D5;
 }
 
 /* responsive */
