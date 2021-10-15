@@ -18,7 +18,7 @@ p, li {
 
 /* Barra de navegação */
 header, .navbar {
-  background-color: #353D41;
+  background-color: #1e2224;
 }
 
 #nav-container {
@@ -32,11 +32,11 @@ header, .navbar {
 
 .navbar-brand {
   padding: 0;
-  color: #FFF;
+  color: rgb(255, 255, 255);
 }
 
 .navbar-brand:hover {
-  color: #FFF;
+  color: rgb(255, 255, 255);
 }
 
 #navbar-links a {
@@ -48,7 +48,7 @@ header, .navbar {
 }
 
 .nav-item.active {
-  border-bottom: 3px solid #FFF;
+  border-bottom: 3px solid rgb(8, 108, 133);
 }
 
 /* Slider */
@@ -107,7 +107,7 @@ header, .navbar {
 }
 
 .main-title {
-  color: #444;
+  color:style="color: rgb(238, 42, 8);";
   margin: 0 0 65px 0;
   font-size: 40px;
   text-align: center;

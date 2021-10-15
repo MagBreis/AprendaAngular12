@@ -18,7 +18,7 @@ p, li {
 
 /* Barra de navegação */
 header, .navbar {
-  background-color: #353D41;
+  background-color: #14b1ff;
 }
 
 #nav-container {
@@ -32,15 +32,15 @@ header, .navbar {
 
 .navbar-brand {
   padding: 0;
-  color: #FFF;
+  color: rgb(228, 212, 212);
 }
 
 .navbar-brand:hover {
-  color: #FFF;
+  color: rgb(209, 35, 35);
 }
 
 #navbar-links a {
-  color: #FFF;
+  color: rgb(221, 205, 205);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -60,7 +60,7 @@ header, .navbar {
 
 .main-btn {
   background-color: #e91809;
-  color: #FFF;
+  color: rgb(238, 235, 235);
   text-transform: uppercase;
   width: 200px;
   height: 60px;
@@ -84,11 +84,11 @@ header, .navbar {
 /* Sobre a empresa */
 
 #about-area {
-  background-color: #F9F9F9;
+  background-color: hsl(0, 0%, 95%);
 }
 
 .main-title {
-  color: #444;
+  color:style="color: rgb(238, 42, 8);";
   margin: 0 0 65px 0;
   font-size: 40px;
   text-align: center;
@@ -215,7 +215,7 @@ header, .navbar {
 
 #apply-btn:hover {
   border-color: #65DAF9;
-  background-color: #65DAF9;
+  background-color: #da1811;
 }
 
 /* Portfólio */
@@ -264,7 +264,7 @@ header, .navbar {
   border-radius: 0;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  border: 1px solid #65DAF9;
+  border: 1px solid #e70808;
   display: inline;
   box-sizing: border-box;
   width: 40%;
@@ -356,7 +356,7 @@ header, .navbar {
 
 .contact-tile {
   font-weight: bold;
-  color: #3EC1D5;
+  color: #f70000;
 }
 
 #msg-box p {
